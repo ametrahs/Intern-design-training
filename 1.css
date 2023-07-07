@@ -1,43 +1,44 @@
-body{
-    background-color: #000;
-    margin:0;
-    display:flex;
-}
-.container{
+ body{
+     background-color: #000; 
+    margin:0; 
+    display:flex; 
+    
+} 
+ .container{
     padding-top:7%;
     display: flex;
     width:100%;
     justify-content: center;
 background-color:#000;
-height: 500px;
+height: 500px;  
 }
 .middlemain{
-    display:flex;
-    background-color: white;
-    justify-content: center;
+     display:flex;
+    background-color: white; 
+    justify-content: center;  
     width: 800px;
-    height: 100%;
-    padding-top:6%;
-}
-.main{
+     height: 100%; 
+    padding-top:6%; 
+} 
+.main {
     width: 680px;
-    height: 80%;
+     height: 80%;
     display:flex;
-    background-color: #ffff;
-    box-shadow:0 6px 8px rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+     background-color: #ffff; 
+    box-shadow: 0 6px 8px rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 
 }
-.sec1{
+ .sec1{
     width:50%;
     height: 100%;
     background-color: #fff;
-}
-.sec2{
+} 
+ .sec2{
     width: 50%;
     height: 100%;
     background-image: url('./1.jpg');
     background-position: center;
-    background-size: cover;
+    background-size: cover; 
 }
 .header{
     display: flex;
@@ -72,14 +73,14 @@ padding: 10px;
   }
   input[type=button]:hover{
     background-color: #3e8e51;
-    cursor: pointer;
+    cursor: pointer; 
   }
   p.header-title::first-letter{
     color:#4caf51;
     font-weight:600 ;
     font-size: 20px;
   }
-  @media(max-width:600px){
+   @media(max-width:600px){
     .middlemain{
         height: 100%;
         width: auto;
@@ -99,13 +100,5 @@ padding: 10px;
         display: flex;
         justify-content: space-between;
         padding:5px ;
-    }
-    /* .middlemain{
-        width: auto;
-    } */
-   /*  .sec1{
-        width: 50%;
-    }
- .sec2{
-    width: 50%; */
- }
+    } 
+}
